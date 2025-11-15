@@ -10,6 +10,7 @@ spec:
   source:
     repoURL: https://helm.nginx.com/stable
     chart: nginx
+    targetRevision: 0.17.2
     helm:
       values: |
         replicaCount: 1
