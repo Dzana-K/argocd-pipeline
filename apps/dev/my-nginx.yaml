@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://charts.bitnami.com/bitnami
     chart: nginx
-    targetRevision: 22.3.2
+    targetRevision: 22.2.6
     helm:
       values: |
         replicaCount: 1
